@@ -1,0 +1,1 @@
+reg add "HKCU\Control Panel\Desktop" /v "PowerButtonAction" /t REG_DWORD /d 3 /f
