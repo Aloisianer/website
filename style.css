@@ -24,14 +24,6 @@ button {
     cursor: pointer;
 }
 
-.hyperlink {
-    color: var(--blue)
-}
-
-.links {
-    color: var(--text)
-}
-
 .parent-container {
     display: flex;
     flex-direction: row;
@@ -120,7 +112,7 @@ button {
     --base: #1e1e2e;
     --mantle: #181825;
     --crust: #11111b;
-    --shadow: rgba(185, 185, 185, 0.2);
+    --shadow: rgba(58, 58, 58, 0.372);
     --shadow-invert: rgba(0, 0, 0, 0.2);
 }
 
