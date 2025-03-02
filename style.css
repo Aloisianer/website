@@ -4,6 +4,7 @@
 }
 
 * {
+    font-weight: normal;
     font-family: JetBrainsFont;
 }
 
@@ -12,6 +13,7 @@ h1 {
 }
 
 button {
+    text-align: center;
     color: var(--base);
     background-color: var(--lavender);
     border: none;
@@ -24,14 +26,20 @@ button {
     cursor: pointer;
 }
 
+.intro {
+    text-align: center;
+    width: 80%;
+    place-self: center;
+}
+
 .parent-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     text-align: center;
-    padding-left: 10%;
-    padding-right: 10%;
-    gap: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
+    gap: 30px;
 }
 
 .container {

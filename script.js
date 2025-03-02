@@ -7,9 +7,9 @@ document.getElementById("toggle-dark-white").addEventListener("click", function(
 
     if (htmlClass.includes("dark-mode")) {
         html.className = htmlClass.replace("dark-mode", "white-mode")
-        button.textContent = button.textContent.replace("•", "●")
+        button.textContent = "󰖙"
     } else {
         html.className = htmlClass.replace("white-mode", "dark-mode")
-        button.textContent = button.textContent.replace("●", "•")
+        button.textContent = ""
     }
 });
