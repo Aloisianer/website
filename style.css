@@ -12,6 +12,10 @@ h1 {
     text-align: center;
 }
 
+a {
+    color: var(--blue);
+}
+
 button {
     text-align: center;
     color: var(--base);
