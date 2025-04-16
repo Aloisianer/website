@@ -13,3 +13,7 @@ document.getElementById("toggle-dark-white").addEventListener("click", function(
         button.textContent = ""
     }
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById('left').innerHTML = '<img src="clubmate.png" alt="Club Mate">'
+});
