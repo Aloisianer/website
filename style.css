@@ -44,7 +44,7 @@ a {
     padding: 20px;
 }
 
-#left {
+.left {
     z-index: 1;
     position: fixed;
     top: 0;
@@ -103,6 +103,9 @@ a {
 }
 
 @media (max-width: 1000px) {
+    .left img {
+        display: none;
+    }
     .content {
         margin-left: 0;
     }

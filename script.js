@@ -13,9 +13,3 @@ document.getElementById("toggle-dark-white").addEventListener("click", function(
         button.textContent = ""
     }
 });
-
-document.addEventListener("DOMContentLoaded", function() {
-    if (!window.matchMedia("(max-width: 1000px)").matches) {
-        document.getElementById("left").innerHTML = '<img src="clubmate.webp" alt="Club Mate" loading="lazy">'
-    }   
-})
