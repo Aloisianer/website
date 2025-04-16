@@ -32,7 +32,7 @@ button {
 }
 
 a {
-    color: var(--lavender);
+    color: var(--text);
     text-decoration: none;
 }
 
