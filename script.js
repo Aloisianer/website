@@ -1,4 +1,4 @@
-console.log("I use Arch btw~")
+console.log("Read if cute")
 
 document.getElementById("toggle-dark-white").addEventListener("click", function() {
     const html = document.getElementById("host-dark-white");
