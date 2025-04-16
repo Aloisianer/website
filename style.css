@@ -103,7 +103,7 @@ a {
 }
 
 @media (max-width: 1000px) {
-    #left {
+    #left img {
         display: none;
     }
     .content {
